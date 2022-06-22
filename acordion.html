@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/smoothness/jquery-ui.css">
+</head>
+<body>
+    <section id="gelatina">
+        <h3>Opcion 1</h3>
+        <div><img style="width: 500px;" src="https://elcomercio.pe/resizer/pqoIxl4h3_Xe7ChCxxDQP8GUykk=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/66AM3SSB3ZGSJNU2TQAVJNHIWE.jpg" alt=""></div>
+        <h3>Opcion 2</h3>
+        <div><img style="width: 500px;" src="https://i.ytimg.com/vi/JhUqf_fhgeA/maxresdefault.jpg" alt=""></div>
+        <h3>Opcion 3</h3>
+        <div><img style="width: 500px;" src="https://urpgstatic.com/images/pokemon-home.png" alt=""></div>
+        <h3>Opcion 4</h3>
+        <div><img style="width: 500px;" src="https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2022/03/Pokemon-personajes-exclusivos-25-anos.jpg?fit=1280%2C720&quality=80&ssl=1" alt=""></div>
+        <h3>Opcion 5</h3>
+        <div><img style="width: 500px;" src="https://images.gameinfo.io/pokemon/256/p208f339.png" alt=""></div>
+    </section>    
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js" integrity="sha256-hlKLmzaRlE8SCJC1Kw8zoUbU8BxA+8kR3gseuKfMjxA=" crossorigin="anonymous"></script>
+
+    <script>
+        $( function() {
+          var icons = {
+            header: "ui-icon-circle-arrow-e",
+            activeHeader: "ui-icon-circle-arrow-s"
+          };
+          $( "#gelatina" ).accordion({
+            icons: icons,
+            heightStyle: "content"
+          });
+          
+        } );
+        </script>
+</body>
+</html>
